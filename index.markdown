@@ -4,3 +4,5 @@
 
 layout: home
 ---
+![AirMotion Pen](/assets/images/airmotionpenText.png)
+<br />
