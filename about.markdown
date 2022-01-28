@@ -1,18 +1,10 @@
 ---
 layout: page
-title: About
+title: Meet the Team
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The AirMotionPen was created by a group of five University of Waterloo undergraduate Mechatronics Engineering students. The image below shows the members Xiuyu Chen, Yilin Li, Kaitlyn Paglia, Angela Bai, and Zixuan Li from left to right.
 
 
-[jekyll-organization]: https://github.com/jekyll
+|<img src="/assets/images/x_c.jpg">|<img src="/assets/images/l_l.jpg">|<img src="/assets/images/k_p.jpg">|<img src="/assets/images/a_b.jpg">|<img src="/assets/images/z_l.jpg">|
