@@ -15,9 +15,9 @@ Verification of design using computational or numerical analysis using appropria
 
 ## Summary of Analyses
 
-* Gesture recognition model
-** Collect hand gesture motions for 7 different gestures -> 10 sets each's
-* Multithreaded system
+- Gesture recognition model
+  - Collect hand gesture motions for 7 different gestures -> 10 sets each's
+- Multithreaded system
 
 
 
