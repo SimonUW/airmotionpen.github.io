@@ -43,6 +43,21 @@ Verification of design using computational or numerical analysis using appropria
     - input to gesture recognition model is not fixed
       - can take in 300-400 or 600-700 samples as long as it is a recognizable model
     - embed algo to existing driver to test the actual accuracy and user experience for the stylus prototype -> todo
+    - Accuracy = 100% for every single gesture meaning it is a perfect classifier 
+3. user-specific accuracy: Our gesture recognition accuracy was analyzed on specific users. Each user has their own habit of performing a specific gesture (e.g. drawing a circle in-air) and the model adapted specific users’ gestures. In this part, we assume the user records very little data and update our gesture recognition algorithm for this user accordingly, and measure the performance on this user with more testing data from this user.
+Train Data: Carson (70) + Simon (70) + Larry (14)
+Test Data: Larry (56)
+Result:
+![ANSYS_result_3-1.PNG](/assets/images/ANSYS_result_3-1.PNG)
+Train Data: Carson (70) + Simon (70) + Larry (21)
+Test Data: Larry (49)
+Result:
+![ANSYS_result_3-2.PNG](/assets/images/ANSYS_result_3-2.PNG)
+* increase larry data by 7 samples builds accuracy from 84 to 98 percent
+* proves the model can easily improve the user’s habits with very few samples
+* user needs only about 5 minutes to input those 21 samples
+* can automatically update the model and adaptively memorize the user’s behaviour
+
 
 
 
