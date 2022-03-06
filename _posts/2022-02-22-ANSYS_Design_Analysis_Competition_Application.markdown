@@ -27,12 +27,12 @@ Verification of design using computational or numerical analysis using appropria
 ## Analysis Procedures (award)
 1. We measured the data transmission rate between the microcontroller and the PC end through the Bluetooth protocol. A low transmission rate will affect the gesture recognition accuracy, so a high rate is desired. We also measured the stability of the Bluetooth connection and the optimum transmission should be stable for hours without loss in data.
   - Bluetooth 2.0 communication protocol
-  -b. C++ = driver of digital stylus
-    i. running in driver program - measuring
-  c. data transmission rate = 280 Hertz 
-  d. data transmission was stable without loss of data within an hour of running
-  e. processing time of each sample of data could match the 280 Hertz
-    i. data was processed synchronously
+  - C++ = driver of digital stylus
+    - running in driver program - measuring
+  - data transmission rate = 280 Hertz 
+  - data transmission was stable without loss of data within an hour of running
+  - processing time of each sample of data could match the 280 Hertz
+    - data was processed synchronously
 
 
 
