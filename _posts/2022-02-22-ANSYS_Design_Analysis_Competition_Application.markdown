@@ -33,6 +33,17 @@ Verification of design using computational or numerical analysis using appropria
   - data transmission was stable without loss of data within an hour of running
   - processing time of each sample of data could match the 280 Hertz
     - data was processed synchronously
+  
+2. Analysis of the recognition model in general: We have 7 predefined in-air gestures: wave left to right, wave right to left, roll left to right, roll right to left, wave up to down, wave down to up, and drawing circle. We collected data from multiple users to train and test our algorithm. For each user, we collected 10 sets of the 7 gestures, so 70 data samples for each user. The gesture data samples are splitted between the training and the test set. The model is first trained on the 80% of the training dataset and uses the remaining 20% of the training dataset to validate the accuracy of the model during the training process. Once the validation accuracy stops improving, the training process is terminated. After the training is complete, the model is then evaluated on the test set. The overall prediction accuracy is measured by the percentage of predictions being the same as the test labels. Additionally, to compare the accuracy that the model performs on each gesture class, we also evaluate the prediction results with the truth table like this:
+![ANSYS_result_2.PNG](/assets/images/ANSYS_result_2.PNG)
+  - Python
+  - Model takes in 600~700 samples
+    - ~1 second of data transmission using the wired connection
+    - bluetooth is ~2-3 times slower than wired connection
+    - input to gesture recognition model is not fixed
+      - can take in 300-400 or 600-700 samples as long as it is a recognizable model
+    - embed algo to existing driver to test the actual accuracy and user experience for the stylus prototype -> todo
+
 
 
 
