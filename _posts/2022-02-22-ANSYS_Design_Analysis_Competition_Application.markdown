@@ -9,7 +9,7 @@ categories: design
 Verification of design using computational or numerical analysis using appropriate engineering tools (eg. CFD, FEA, statistical)
 
 # Requirement
-![ANSYS_requirement.png](/assets/images/ANSYS_requirement.png)
+![ANSYS_requirement.PNG](/assets/images/ANSYS_requirement.PNG)
 
 # Project Overview
 
